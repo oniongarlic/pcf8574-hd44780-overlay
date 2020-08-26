@@ -1,1 +1,1 @@
-Overlay for LCD connected trough PCF8574 i2c GPIO extender chip
+Overlay for Hitachi HD44780 LCDs connected trough PCF8574 I2C GPIO chip

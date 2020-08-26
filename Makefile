@@ -1,7 +1,7 @@
-all: pcf8574-hd44780.dtb
+all: pcf8574-hd44780.dtbo
 
-pcf8574-hd44780.dtb: pcf8574-hd44780.dts
-	dtc -@ -I dts -O dtb -o pcf8574-hd44780.dtb pcf8574-hd44780.dts
+pcf8574-hd44780.dtbo: pcf8574-hd44780.dts
+	dtc -@ -I dts -O dtb -o pcf8574-hd44780.dtbo pcf8574-hd44780.dts
 
 clean:
-	rm pcf8574-hd44780.dtb
+	rm pcf8574-hd44780.dtbo
