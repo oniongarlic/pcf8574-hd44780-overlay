@@ -1,2 +1,4 @@
+#!/bin/bash
+
 mkdir /sys/kernel/config/device-tree/overlays/hd
-cat pcf-hd-i2c.dtb > /sys/kernel/config/device-tree/overlays/hd/dtbo
+cat pcf8574-hd44780.dtbo > /sys/kernel/config/device-tree/overlays/hd/dtbo
